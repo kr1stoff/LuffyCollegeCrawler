@@ -611,7 +611,7 @@ requests.get(url,params=kw)
   # 发送get请求
   response = requests.get(url=url,headers=headers,params=params,proxies=proxy)
   # 获取返回页面保存到本地，便于查看
-  with open('ip.html','w',encoding='utf-8') as f:
+  with open('练习/ip.html','w',encoding='utf-8') as f:
       f.write(response.text)
   ```
 
